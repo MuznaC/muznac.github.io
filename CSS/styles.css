@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(251, 251, 251);
+}
+body{
+    font-family:Nunito Sans;
+}
+/*header section*/
+li, a, button{
+    font-family:Nunito Sans;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(47, 47, 47);
+    text-decoration: none;
+   
+}
+
+header{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #dfe0c9;
+    
+   
+}
+
+nav, ul, li, a, button,img {
+    background-color: transparent;
+}
+
+.logo{
+  
+    width: 10%;
+    margin-right:auto;
+}
+
+ 
+
+.nav_links li{
+     
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: olive;
+}
+
+button{
+    
+    padding: 7px 20px;
+    background-color: rgb(235, 184, 184);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    color:azure;
+    background-color: olive;
+    
+}
+
+.drop-down{
+    width: 100%;
+    position: absolute;
+    padding: 0.5rem 1rem;
+    background-color: olive;
+    width: 130%;
+    display: none;
+
+   
+    /*display: flex;
+    flex-direction: column;*/    
+}
+.drop-down li{
+    width: 100%;
+    background-color: olive;
+    padding: 5px;
+    color: azure;
+    text-align: center;
+    /*display: block;*/
+    margin: 0px;
+
+}
+.drop-down li:hover{
+   
+    width: 100%;
+    background-color: rgb(235, 184, 184);
+    color: #000;
+    
+}
+ul li:hover ul.drop-down{
+    display: block;
+}
+/*content 1*/
+.section1{
+    padding: 30px;
+}
+.Main-title{
+    font-size: 60px;
+    font-weight: 500;
+    font-family: Open Sans;
+    margin: 20px 0;
+    color: rgb(47, 47, 47);
+
+}
+.sub-heading{
+   
+    
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: 500;
+    color: rgb(47, 47, 47);
+
+    
+}
+.intro{
+    margin: 20px 0;
+    font-family:Nunito Sans;
+    color: rgb(47, 47, 47);
+
+}
+.readmore-button{
+    color: rgb(47, 47, 47);
+
+    font-family:Nunito Sans;
+    font-size: 16px;
+    border: 2px solid olive;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 30px 0;
+    border-radius: 20px;
+    transition: background-color 0.5s, border-color 0.5s, color 0.5s, transform 0.5s;
+}
+.readmore-button:hover{
+    background-color: olive;
+    color: azure; 
+    transform: scale(1.2);   
+
+}
+
+.section2{
+    background-color: rgb(235, 184, 184);
+    height: 500px;
+}
+.box {
+    width: 30%;
+    min-width: 300px;
+    height: 300px;
+    float: left;
+    text-align: center;
+    padding: 80px 10px;
+    margin: 20px;
+
+
+  }
+   .box,.icon, .fa-solid, h5, p{
+    background-color:transparent;
+
+  }
+.icon{
+    font-size: 60px;
+    color: olive;
+    margin-bottom: 10px;
+}
+.box h5{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: olive;
+
+}
+
+.box p{
+    font-size: 0.9em;
+}
+.box{
+    
+    border-bottom: 1px solid olive;
+    padding-bottom: 20%;
+       
+}
